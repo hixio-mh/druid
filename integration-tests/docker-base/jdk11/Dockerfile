@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 # Install Java JDK 11 (OpenJDK 11.0.5)
 # Sourced from AdoptOpenJDK openjdk-docker project (https://github.com/AdoptOpenJDK/openjdk-docker)
