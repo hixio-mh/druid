@@ -53,7 +53,9 @@
     "sasslint-fix-changed-only": "npm run sasslint-changed-only -- --fix",
     "generate-licenses-file": "license-checker --production --json --out licenses.json",
     "check-licenses": "license-checker --production --onlyAllow 'Apache-1.1;Apache-2.0;BSD-2-Clause;BSD-3-Clause;MIT;CC0-1.0' --summary",
-    "start": "webpack-dev-server --hot --open"
+    "start": "webpack-dev-server --hot --open",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.19.1",
@@ -84,7 +86,8 @@
     "react-splitter-layout": "^4.0.0",
     "react-table": "~6.10.3",
     "regenerator-runtime": "^0.13.3",
-    "tslib": "^1.10.0"
+    "tslib": "^1.10.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -147,5 +150,6 @@
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
-  }
+  },
+  "snyk": true
 }
