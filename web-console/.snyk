@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint-scss > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - enzyme-to-json > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2021-10-23T01:58:45.773Z'
+    - awesome-code-style > stylelint-scss > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - enzyme > cheerio > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass-chokidar > sass-graph > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass-chokidar > node-sass > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > table > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - webpack-dev-server > portfinder > async > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash':
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - node-sass-chokidar > node-sass > gaze > globule > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T01:58:45.773Z'
